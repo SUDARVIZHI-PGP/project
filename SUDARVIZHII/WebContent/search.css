@@ -1,0 +1,58 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    background-image: url(image6.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.searchbox{
+    width: 340px;
+    height: 420px;
+    color: rgba(2, 24, 14, 0.733);
+    top: 10%;
+    right: 10%;
+   position: absolute;
+    transform: translate(-50%,-50%)
+    box-sizing: border-box;
+    padding: 100px 40px;
+}
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    font-size: 22px;
+    color: black;
+}
+.searchbox p{
+    margin:0;
+    padding: 0;
+    font-weight: bold;
+}
+.searchbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.searchbox input[type="text"]{
+    border: none;
+    border-bottom: 1px solid hsl(135, 88%, 25%);
+    background: rgba(28, 31, 36, 0.144);
+    outline: none;
+    color: rgb(53, 13, 145);
+    font-size: 16px;
+}
+.searchbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: sky blue;
+    color:blue;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.searchbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: blue;
+    color: rgba(61, 146, 11, 0.712);
+
+}

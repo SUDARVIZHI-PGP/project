@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image2.jpg);
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    font-weight: bold;
+}
+
+
+.row{
+    margin: 20px 0;
+}
+.row{
+    background: black;
+    padding: 20px;
+    width: 90%;
+    text-align: center;
+    color:blue;
+    vertical-align: center;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+.row:nth-child(1){
+    background: transparent;
+    color: white;
+    font-weight: bold;    
+}
+.row:nth-child(2){
+    background:transparent; 
+    color: white;
+    font-weight: bold;
+    
+}
+.row:nth-child(3){
+    background: transparent;;
+    color: white;
+    font-weight: bold;
+}
+.row:nth-child(4)
+{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+.row:nth-child(5)
+{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+.row:nth-child(6)
+{
+    background: transparent;
+    color: white;
+    font-weight: bold;
+}
+.container{
+    margin: 0;
+    padding: -200px;;
+}
+
+a{
+	color:white;
+	font:bold;
+}
